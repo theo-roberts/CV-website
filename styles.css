@@ -1,0 +1,23 @@
+html{
+    font-family: 'Darker Grotesque';
+}
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto;
+    text-align: center;
+    color: rgb(53, 111, 149);
+    height: 250px;
+    font-size: 150px;
+}
+
+.top-of-page {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary {
+    width: 600px;
+    font-size: 16px;
+}
