@@ -63,18 +63,33 @@ body {
     font-weight: bold;
 }
 
+.middle-of-page .right .title {
+    font-size: 24px;
+    font-weight: bold;
+}
 
 .middle-of-page button{
     font-family: 'Darker Grotesque';
-    font-size: 16px;
+    font-size: 14px;
     border-style: solid;
     border-color: transparent;
     background-color: rgb(53, 111, 149);
     color: white;
-    width: auto;
-    height: 40px;
+    width: 110px;
+    height: auto;
+    line-height: .1;
+}
+
+.moreinfo{
+    margin-top: -14px;
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: transparent;
+    color: black;
 }
 
 #jobDescription{
-    width: 500px;
+    width: 485px;
 }
