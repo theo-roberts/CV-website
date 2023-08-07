@@ -35,6 +35,34 @@ body {
     flex-direction: column;
 }
 
+.top-of-page .right .projects{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.top-of-page .right .projects .buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.top-of-page button{
+    font-family: 'Darker Grotesque';
+    font-size: 14px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: rgb(53, 111, 149);
+    color: white;
+    width: 130px;
+    height: auto;
+}
+
+.top-of-page button:hover{
+    transform: scale(1.1);
+}
+
 .top-of-page .right .summary {
     width: 600px;
     font-size: 16px;
@@ -48,7 +76,7 @@ body {
 .middle-of-page {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .middle-of-page .left {
@@ -85,7 +113,7 @@ body {
     font-size: 13px;
 }
 
-button:hover{
+.middle-of-page button:hover{
     background-color: transparent;
     color: black;
 }
