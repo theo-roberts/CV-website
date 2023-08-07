@@ -1,23 +1,80 @@
 html{
     font-family: 'Darker Grotesque';
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
 .main-title{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin: auto;
     text-align: center;
+    margin-bottom: 20px;
     color: rgb(53, 111, 149);
-    height: 250px;
+    height: 150px;
     font-size: 150px;
 }
 
 .top-of-page {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 800px;
 }
 
-.summary {
+.top-of-page .picture{
+    max-width: 150px;
+    max-height: auto;
+}
+
+.top-of-page .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-of-page .right .summary {
     width: 600px;
     font-size: 16px;
+}
+
+.top-of-page .right .title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.middle-of-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.middle-of-page .left {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 10px;
+}
+
+.middle-of-page .left .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.middle-of-page button{
+    font-family: 'Darker Grotesque';
+    font-size: 16px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: rgb(53, 111, 149);
+    color: white;
+    width: auto;
+    height: 40px;
+}
+
+#jobDescription{
+    width: 500px;
 }
