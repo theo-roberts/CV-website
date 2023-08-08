@@ -43,6 +43,7 @@ function pizzaExpressJobDescriptionOn(){
     const pizzaExpressJobDescription = document.createElement('li');
     pizzaExpressJobDescription.classList.add('pizzaExpressJobDescription');
     pizzaExpressJobDescription.textContent = 'For just over a year I worked as a waiter in a busy central Brighton restaurant. It was full each weekend and during school holidays, so I got used to fast-paced work environments. This meant I became very good at multitasking and looking after a high number of tables at once.'
+    pizzaExpressJobDescription.style.cssText = ('transition: 1s');
     pizzaExpress.appendChild(pizzaExpressJobDescription);
 }
 
