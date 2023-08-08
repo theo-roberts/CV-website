@@ -19,7 +19,7 @@ body {
 }
 
 .title {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -28,6 +28,13 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     width: 800px;
+    gap: 15px
+}
+
+.contactme {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
 }
 
 .top-of-page .picture{
@@ -42,14 +49,15 @@ body {
 
 
 .top-of-page .right .summary {
-    width: 600px;
-    font-size: 16px;
+    width: 480px;
+    font-size: 18px;
 }
 
 .middle-of-page {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    height: 350px;
 }
 
 .middle-of-page .left {
@@ -61,7 +69,7 @@ body {
 
 .middle-of-page button{
     font-family: 'Darker Grotesque';
-    font-size: 16px;
+    font-size: 18px;
     border-style: solid;
     border-color: transparent;
     background-color: rgb(80, 139, 177);
@@ -76,12 +84,12 @@ body {
 }
 
 .middle-of-page button:hover{
-    background-color: transparent;
-    color: black;
+    background-color: rgb(53, 91, 117);
 }
 
 #jobDescription{
     width: 485px;
+    font-size: 18px;
 }
 
 .bottom-of-page{
@@ -110,5 +118,9 @@ body {
 footer {
     display: flex;
     gap: 20px;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+li {
+    font-size: 18px;
 }
