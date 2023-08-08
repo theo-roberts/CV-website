@@ -18,6 +18,11 @@ body {
     font-size: 150px;
 }
 
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .top-of-page {
     display: flex;
     justify-content: space-between;
@@ -35,43 +40,10 @@ body {
     flex-direction: column;
 }
 
-.top-of-page .right .projects{
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    gap: 10px;
-}
-
-.top-of-page .right .projects .buttons{
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-}
-
-.top-of-page button{
-    font-family: 'Darker Grotesque';
-    font-size: 14px;
-    border-style: solid;
-    border-color: transparent;
-    background-color: rgb(80, 139, 177);
-    color: white;
-    width: 130px;
-    height: auto;
-}
-
-.top-of-page button:hover{
-    transition: ease-in;
-    background-color: rgb(55, 110, 150);
-}
 
 .top-of-page .right .summary {
     width: 600px;
     font-size: 16px;
-}
-
-.top-of-page .right .title{
-    font-size: 24px;
-    font-weight: bold;
 }
 
 .middle-of-page {
@@ -85,16 +57,6 @@ body {
     flex-direction: column;
     width: 150px;
     gap: 10px;
-}
-
-.middle-of-page .left .title {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.middle-of-page .right .title {
-    font-size: 24px;
-    font-weight: bold;
 }
 
 .middle-of-page button{
@@ -121,4 +83,26 @@ body {
 
 #jobDescription{
     width: 485px;
+}
+
+.bottom-of-page{
+    margin-top: 40px;
+}
+.projects{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.project {
+    border-style: solid;
+    border-color: transparent;
+}
+.project:hover {
+    border-style: solid;
+    border-color: rgb(80, 139, 177);
+}
+
+footer {
+    display: flex;
 }
