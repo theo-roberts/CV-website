@@ -56,23 +56,22 @@ body {
     display: flex;
     flex-direction: column;
     width: 150px;
-    gap: 10px;
+    gap: 12px;
 }
 
 .middle-of-page button{
     font-family: 'Darker Grotesque';
-    font-size: 14px;
+    font-size: 16px;
     border-style: solid;
     border-color: transparent;
     background-color: rgb(80, 139, 177);
     color: white;
-    width: 110px;
+    width: auto;
     height: auto;
     line-height: .1;
 }
 
 .moreinfo{
-    margin-top: -14px;
     font-size: 13px;
 }
 
@@ -87,11 +86,16 @@ body {
 
 .bottom-of-page{
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .projects{
     display: flex;
     margin-top: 20px;
     gap: 10px;
+}
+
+.desc {
+    font-weight: bold;
 }
 
 .project {
@@ -105,4 +109,6 @@ body {
 
 footer {
     display: flex;
+    gap: 20px;
+    font-size: 24px;
 }
