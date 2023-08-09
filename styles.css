@@ -10,20 +10,19 @@ body {
 }
 .main-title{
     color: rgb(55, 110, 150);
-    height: 340px;
+    height: auto;
     font-size: 220px;
 }
 
 .title {
     font-size: 30px;
     font-weight: bold;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
 }
 
 .top-of-page {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-    width: 800px;
 }
 
 .contactme {
@@ -35,17 +34,34 @@ body {
     max-width: 210px;
     max-height: auto;
     margin: 12px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
 }
 
 .top-of-page .right {
     display: flex;
     flex-direction: column;
+    margin-left: 12px;
 }
 
 
 .top-of-page .right .summary {
     width: 600px;
     font-size: 18px;
+}
+
+.top-of-page .title{
+    width: 85px;
+}
+
+.middle-of-page .title{
+    width: 140px;
+}
+
+.bottom-of-page .title{
+    width: 110px;
+}
+.bottom-of-page .moreinfo{
+    margin-top:15px;
 }
 
 .middle-of-page {
@@ -106,16 +122,16 @@ body {
 }
 
 .project {
-    border-style: solid;
-    border-color: transparent;
+    border: solid black 3px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
 }
 .project:hover {
-    border-style: solid;
-    border-color: rgb(80, 139, 177);
+    box-shadow: none;
 }
 
 footer {
     display: flex;
+    justify-content: center;
     gap: 20px;
     font-size: 22px;
     align-items:  baseline;
