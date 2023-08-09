@@ -31,7 +31,7 @@ body {
 }
 
 .top-of-page .picture{
-    max-width: 210px;
+    max-width: 15%;
     max-height: auto;
     margin: 12px;
     box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
@@ -97,6 +97,7 @@ body {
 .middle-of-page button:hover{
     background-color: rgb(55, 110, 150);
     color: white;
+    transform: translate(3%, 6%);
 }
 
 #jobDescription{
@@ -127,6 +128,7 @@ body {
 }
 .project:hover {
     box-shadow: none;
+    transform: translate(2%, 2%);
 }
 
 footer {
