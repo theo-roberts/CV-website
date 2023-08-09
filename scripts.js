@@ -9,7 +9,7 @@ function neptikJobDescriptionOn(){
     const neptik = document.querySelector('#jobDescription');
     const neptikJobDescription1 = document.createElement('li');
     neptikJobDescription1.classList.add('neptikJobDescription');
-    neptikJobDescription1.textContent = 'Gathered and cleansed large amounts of data, managed multiple inboxes, built daily email campaigns and monitored their performance. This required me to be organised and independent in managing my workload. Tasks were time-sensitive, developing my ability to work under pressure whilst maintaining a high level of quality.';
+    neptikJobDescription1.textContent = 'Gathered and cleansed large amounts of data, managed multiple inboxes, built daily email campaigns and monitored their performance. This required me to be organised and independent in managing my workload.';
     neptik.appendChild(neptikJobDescription1);
     const neptikJobDescription2 = document.createElement('li');
     neptikJobDescription2.classList.add('neptikJobDescription');
