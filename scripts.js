@@ -17,7 +17,7 @@ function neptikJobDescriptionOn(){
     neptik.appendChild(neptikJobDescription2);
     const neptikJobDescription3 = document.createElement('li');
     neptikJobDescription3.classList.add('neptikJobDescription');
-    neptikJobDescription3.textContent = 'Often called upon to help out with tasks outside of my usual responsibility. This included training new members of the team and creating an analysis of subject lines used in marketing emails.';
+    neptikJobDescription3.textContent = 'Trained new members of the team and analysed subject lines used in marketing emails.';
     neptik.appendChild(neptikJobDescription3);
     const neptikJobDescription4 = document.createElement('li');
     neptikJobDescription4.classList.add('neptikJobDescription');
