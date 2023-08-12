@@ -154,3 +154,7 @@ li {
     max-width: 35px;
     max-height: auto;
 }
+
+iframe{
+    border-color: transparent;
+}
